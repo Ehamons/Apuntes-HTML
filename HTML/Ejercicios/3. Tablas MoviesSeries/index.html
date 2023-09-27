@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Series y películas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header, includes (div) my_portfolio and (nav) nav-bar  -->
+    <header class="encabezado">
+      <div class="my_portfolio">
+        <a href="https://ehamons.github.io/Portafolio-Elkin/">
+          <h2 class="titulo_portfolio">My Portfolio</h2>
+          <h2 class="nombre">Elkin Steven Hamón Sánchez</h2></a
+        >
+      </div>
+      <nav>
+        <ul class="nav-bar">
+          <li>
+            <a href="https://ehamons.github.io/Biografia-AdaLovelace/"
+              >Biografía de Ada Lovelace</a
+            >
+          </li>
+          <li><a href="">Películas y series favoritas</a></li>
+          <li><a href="">Centro Médico Back-End</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="project-title">Series y películas favoritas</h1>
+      <br />
+
+      <!-- Películas -->
+      <table class="tablas">
+        <caption>
+          Películas recomendadas
+        </caption>
+        <tr>
+          <!--Títulos-->
+          <th>Portada</th>
+          <th>Películas</th>
+          <th>Año de lanzamiento</th>
+          <th>Género</th>
+          <th>Sinopsis</th>
+          <th>Tráiler</th>
+        </tr>
+        <tr>
+          <!--Primera Columna - El castillo vagabundo-->
+          <td data-cell="portada">
+            <div class="div_portada">
+              <img
+                src="https://www.themoviedb.org/t/p/original/55vk1IvsUYjVdaxytFqwTIZeJT8.jpg"
+                alt="Howl's Moving Castle poster"
+                width="215rem"
+              />
+            </div>
+          </td>
+          <td data-cell="título">
+            <strong>El increíble castillo vagabundo</strong> <br />
+            <br />
+            <strong>Título original:</strong>
+            <span lang="ja" translate="no">ハウルの動く城</span>
+          </td>
+          <td data-cell="año"><strong>2004</strong></td>
+          <td data-cell="género">
+            <ul type="circle">
+              <li>Animación</li>
+              <li>Aventura</li>
+              <li>Familiar</li>
+            </ul>
+          </td>
+          <td>
+            <p>
+              Sophie, una joven de 18 años, trabaja sin descanso en la tienda de
+              sombreros de su difunto padre. En uno de sus poco frecuentes
+              paseos por la ciudad, Sophie conoce al mago Howl, un joven con
+              poderes extraordinarios y extremadamente seductor.
+            </p><br>
+            <h4>Disponible en:</h4>
+            <br>
+            <div class="div_iconos">
+              <!--NetflixIcon-->
+              <a
+                href="https://www.netflix.com/co/title/70028883?source=35"
+                target="_blank"
+              >
+                <img
+                class="icono"
+                  src="./img/netflix-icon.png"
+                  alt="Netflix icon"
+                />
+              </a>
+              <!--AppleTV_Icon-->
+              <a
+                href="http://https://tv.apple.com/co/movie/det-levande-slotten/umc.cmc.5iztg97thy2l82qn0euzqjjza?action=play"
+                target="_blank"
+              >
+                <img
+                class="icono"
+                  src="./img/AppleTV-icon.png"
+                  alt="AppleTV icon"
+                />
+              </a>
+            </div>
+          </td>
+          <td data-cell="trailer">
+            <div class="div_trailer">
+              <iframe
+                src="https://www.youtube.com/embed/iwROgK94zcM?si=mmGknVbn1Gdw-Cru"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!--Segunda Columna - The Batman-->
+          <td data-cell="portada">
+            <div class="div_portada">
+              <img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/35ce9f138691271.625c1933b390b.jpg"
+                alt="The Batman poster"
+                width="215rem"
+              />
+            </div>
+          </td>
+          <td data-cell="título">
+            <span lang="en" translate="no"><strong>The Batman</strong></span>
+          </td>
+          <td data-cell="año"><strong>2022</strong></td>
+          <td data-cell="género">
+            <ul type="circle">
+              <li>Acción</li>
+              <li>Crimen</li>
+              <li>Drama</li>
+            </ul>
+          </td>
+          <td data-cell="sinopsis">
+            <p>
+              En su segundo año luchando contra el crimen, Batman explora la
+              corrupción existente en la ciudad de Gotham y el vínculo de esta
+              con su propia familia. Además, entrará en conflicto con un asesino
+              en serie conocido como "el Acertijo".
+            </p><br>
+            <h4>Disponible en:</h4>
+            <br>
+            <div class="div_iconos">
+              <a
+                href="https://www.primevideo.com/dp/amzn1.dv.gti.f50f8c44-66ba-4e83-94bb-82fb40c52159?autoplay=0&ref_=atv_cf_strg_wb"
+                target="_blank"
+                ><img class="icono"
+                  src="./img/AmazonPrimeVideo-icon.jpg"
+                  alt="Amazon Prime Icon"
+              /></a>
+              <!--Amazon Prime Video-->
+              <a
+                href="https://tv.apple.com/co/movie/the-batman/umc.cmc.75o96q32hcm2kzx4ilop1ylmx?action=play"
+                target="_blank"
+                ><img
+                class="icono"
+                  src="img/AppleTV-icon.png"
+                  alt="AppleTV-icon"
+              /></a>
+              <!--Apple TV-->
+              <a
+                href="https://www.clarovideo.com/colombia/vcard/Batman/1039138"
+                target="_blank"
+                ><img class="icono"
+                  src="img/ClaroVideo-icon.png"
+                  alt="ClaroVideo-icon"
+              /></a>
+              <!--Claro Video-->
+              <a
+                href="https://play.google.com/store/movies/details?id=y0ZmwxrDFJE.P&pli=1"
+                target="_blank"
+                ><img
+                class="icono"
+                  src="img/GooglePlayMovies-icon.png"
+                  alt="GPMovies-icon"
+              /></a>
+              <!--Google Play Películas-->
+              <a
+                href="https://play.hbomax.com/page/urn:hbo:page:GYiDbSAmIpMNvYAEAAAAI:type:feature?source=googleHBOMAX&action=open"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img class="icono" src="img/MAX-icon.png" alt="hbomax-icon"
+              /></a>
+              <!--Max-->
+            </div>
+          </td>
+          <td data-cell="trailer">
+            <div class="div_trailer">
+              <iframe
+                src="https://www.youtube.com/embed/fWQrd6cwJ0A?si=RqK-YAh30eEyRQSk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!--PCol3 - La gran apuesta-->
+          <td data-cell="portada">
+            <div class="div_portada">
+              <img
+                src="https://m.media-amazon.com/images/I/91dC4o8mScL._AC_UF894,1000_QL80_.jpg"
+                alt="The Big Short Poster"
+                width="215rem"
+              />
+            </div>
+          </td>
+          <td data-cell="título">
+            <strong>La gran apuesta</strong> <br />
+            <br />
+            <strong>Título original:</strong>
+            <span lang="en" translate="no">The Big Short</span>
+          </td>
+          <td data-cell="año"><strong>2015</strong></td>
+          <td data-cell="género">
+            <ul type="circle">
+              <li>Biografía</li>
+              <li>Comedia</li>
+              <li>Drama</li>
+            </ul>
+          </td>
+          <td data-cell="sinopsis">
+            <p>
+              Cuando cuatro inversores vieron lo que rechazaron los grandes
+              bancos, los medios de comunicación y el gobierno para detener el
+              derrumbamiento mundial de la economía, tuvieron una idea: La gran
+              apuesta. Su atrevida inversión les lleva al lado más oscuro de la
+              banca moderna, donde deben cuestionarlo todo y a todos.
+            </p>
+            <br />
+            <h4>Disponible en:</h4>
+            <br />
+            <div class="div_iconos">
+              <a
+                href="https://www.primevideo.com/dp/amzn1.dv.gti.84b49af0-cc89-50c5-1752-b75eaf031f3d?autoplay=0&ref_=atv_cf_strg_wb"
+                target="_blank"
+                ><img
+                  class="icono"
+                  src="img/AmazonPrimeVideo-icon.jpg"
+                  alt="AmazonPrimeVideo-icon"
+              /></a>
+              <a
+                href="https://tv.apple.com/co/movie/the-big-short/umc.cmc.7bpp98k5o2jxx401fwfddi5zg?action=play"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="img/AppleTV-icon.png"
+                  alt="AppleTV-icon"
+              /></a>
+              <a
+                href="https://www.clarovideo.com/colombia/watch/722179"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="img/ClaroVideo-icon.png"
+                  alt="ClaroVideo-icon"
+              /></a>
+              <a
+                href="https://play.google.com/store/movies/details?id=U3OvzEvZkMY.P"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="img/GooglePlayMovies-icon.png"
+                  alt="GPMovies-icon"
+              /></a>
+              <a
+                href="https://play.hbomax.com/feature/urn:hbo:feature:GYZ9c7g1rCLF4YAEAAAAI?source=googleHBOMAX&action=open"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img class="icono" src="img/MAX-icon.png" alt="MAX-icon"
+              /></a>
+              <a
+                href="https://www.netflix.com/co/title/80075560?source=35"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="img/netflix-icon.png"
+                  alt="Netflix-icon"
+              /></a>
+            </div>
+          </td>
+          <td data-cell="trailer">
+            <div class="div_trailer">
+              <iframe
+                src="https://www.youtube.com/embed/vgqG3ITMv1Q?si=ODD5stQbZp4QoQZq"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!--PCol4 - Corre-->
+          <td data-cell="portada">
+            <div class="div_portada">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMjI1OTIyZjItYWM4NC00ZTY0LTk1OTctMTUwYzI5YmNhNjA3XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg"
+                alt="Run Movie Poster"
+              />
+            </div>
+          </td>
+          <td data-cell="título">
+            <strong>Corre</strong> <br />
+            <br />
+            <strong>Título original:</strong> Run
+          </td>
+          <td data-cell="año">2020</td>
+          <td data-cell="género">
+            <ul type="circle">
+              <li>Misterio</li>
+              <li>Suspenso</li>
+            </ul>
+          </td>
+          <td data-cell="sinopsis">
+            <p>
+              Dicen que el amor de una madre es eterno pero para Chloe no es un
+              consuelo, sino una amenaza. Hay algo extraño, incluso siniestro en
+              la relación de ella y su madre, Diane. Diane ha criado a su hija
+              completamente aislada, controlando cada uno de sus movimientos,
+              pero Chloe pronto empezará a descubrir los oscuros secretos de su
+              madre.
+            </p>
+            <br />
+            <h4>Disponible en:</h4>
+            <br />
+            <div class="div_iconos">
+              <a
+                href="https://www.netflix.com/co/title/81157374?source=35"
+                target="_blank"
+                ><img
+                  class="icono"
+                  src="./img/netflix-icon.png"
+                  alt="Netflix-icon"
+              /></a>
+            </div>
+          </td>
+          <td data-cell="trailer">
+            <div class="div_trailer">
+              <iframe
+                src="https://www.youtube.com/embed/0Dhh7q9Us5c?si=SYvAgzUWQBi5u_Jm"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <br />
+
+      <!-- Series -->
+
+      <br />
+      <table class="tablas">
+        <caption>
+          Series recomendadas
+        </caption>
+        <tr>
+          <!--Títulos-->
+          <th>Portada</th>
+          <th>Título</th>
+          <th>Género</th>
+          <th>Sinopsis</th>
+          <th>Tráiler</th>
+        </tr>
+        <tr>
+          <!--SCol1-->
+          <td data-cell="portada">
+            <div class="div_portada">
+              <img
+                src="https://es.web.img3.acsta.net/pictures/14/04/16/17/54/526761.jpg"
+                alt="ATLA Poster"
+              />
+            </div>
+          </td>
+          <td data-cell="título">
+            <strong>Avatar: La leyenda de Aang (2005)</strong> <br />
+            <br />
+            <strong>Título original:</strong>Avatar: The Last Airbender
+          </td>
+          <td data-cell="género">
+            <ul type="circle">
+              <li>Animación</li>
+              <li>Acción</li>
+              <li>Aventura</li>
+            </ul>
+          </td>
+          <td data-cell="sinopsis">
+            <p>
+              La serie se centra en el viaje de Aang, de 12 años, el Avatar
+              actual y último superviviente de su nación, los Nómadas del Aire,
+              junto con sus amigos Sokka, Katara y más tarde Toph, mientras se
+              esfuerzan por poner fin a la guerra de la Nación del Fuego contra
+              las otras naciones del mundo.
+            </p>
+            <br />
+            <h4>Disponible en:</h4>
+            <br />
+            <div class="div_iconos">
+              <!-- Prime Video -->
+              <a
+                href="https://www.primevideo.com/dp/amzn1.dv.gti.eebbea29-4ffd-9538-b0c9-a68a8bdc1b33?autoplay=0&ref_=atv_cf_strg_wb"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="./img/AmazonPrimeVideo-icon.jpg"
+                  alt="AmazonPrimeVideo-icon"
+              /></a>
+              <!-- ClaroVideo -->
+              <a
+                href="https://www.clarovideo.com/colombia/vcard/home/avatar-la-leyenda-de-aang/919781"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="./img/ClaroVideo-icon.png"
+                  alt="ClaroVideo-icon"
+              /></a>
+              <!-- Netflix -->
+              <a
+                href="https://www.netflix.com/co/title/70142405?source=35"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="./img/netflix-icon.png"
+                  alt="netflix-icon"
+              /></a>
+            </div>
+          </td>
+          <td data-cell="trailer">
+            <div class="div_trailer">
+              <iframe
+                src="https://www.youtube.com/embed/7GebQL6RdOs?si=jzISRZTTiCeoX1yM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!--SCol2-->
+          <td data-cell="portada">
+            <div class="div_portada">
+              <img
+                src="https://m.media-amazon.com/images/I/61gZF+t-jZL._AC_UF894,1000_QL80_.jpg"
+                alt="Link Click Poster"
+              />
+            </div>
+          </td>
+          <td data-cell="título">
+            <strong>Link Click (2021)</strong> <br />
+            <br />
+            <strong>Título original:</strong>时光代理人
+          </td>
+          <td data-cell="género">
+            <ul type="circle">
+              <li>Animación</li>
+              <li>Crimen</li>
+              <li>Drama</li>
+            </ul>
+          </td>
+          <td data-cell="sinopsis">
+            <p>
+              Cheng Xiaoshi y Lu Guang se toman muy en serio su trabajo en una
+              pequeña tienda de fotografía, y usan sus superpoderes para entrar
+              en las fotos de sus clientes.
+            </p>
+            <br />
+            <h4>Disponible en:</h4>
+            <br />
+            <div class="div_iconos">
+              <a
+                href="https://www.crunchyroll.com/es/series/GP5HJ8E81/link-click"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="./img/Crunchyroll-icon.png"
+                  alt="Crunchyroll-icon"
+              /></a>
+            </div>
+          </td>
+          <td data-cell="trailer">
+            <div class="div_trailer">
+              <iframe
+                src="https://www.youtube.com/embed/Fd6i9zOFFoA?si=aiUSbw64F_wKFplO"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!--SCol3-->
+          <td data-cell="portada">
+            <div class="div_portada">
+              <img
+                src="https://pics.filmaffinity.com/dark-111203947-large.jpg"
+                alt="Dark Poster"
+              />
+            </div>
+          </td>
+          <td data-cell="título"><strong>Dark (2017)</strong> <br /></td>
+          <td data-cell="género">
+            <ul type="circle">
+              <li>Crimen</li>
+              <li>Drama</li>
+              <li>Misterio</li>
+            </ul>
+          </td>
+          <td data-cell="sinopsis">
+            <p>
+              La desaparición de un niño esboza un misterio inimaginable que
+              abarca tres generaciones, y cuatro familias quedan atrapadas en
+              una búsqueda frenética.
+            </p>
+            <br />
+            <h4>Disponible en:</h4>
+            <br />
+            <div class="div_iconos">
+              <a
+                href="https://www.netflix.com/co/title/80100172?source=35"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="icono"
+                  src="./img/netflix-icon.png"
+                  alt="netflix-icon"
+              /></a>
+            </div>
+          </td>
+          <td data-cell="trailer">
+            <div class="div_trailer">
+              <iframe
+                src="https://www.youtube.com/embed/zmxw7NgsBH4?si=6QQe01qwEg0Odtnc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
+<!-- Tomar filas de tabla data-cell="sinopsis" y añadir un article a cada una, luego modificar el ancho máximo del contenido -->
+<!-- Añadir bordes de tabla -->
